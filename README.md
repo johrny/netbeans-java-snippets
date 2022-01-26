@@ -6,7 +6,7 @@ Switching from Netbeans to VS Code and missing the java editor templates?
 
 This extension will solve the issue for you with a simple _`shortcut`_ + `TAB` and your up and running just like you were used to
 
-![DEMO GIF](.\images\Netbeans-Snippets-Demo.gif)
+![DEMO GIF](https://github.com/johrny/netbeans-java-snippets/blob/main/images/Netbeans-Snippets-Demo.gif?raw=true)
 
 ---
 
