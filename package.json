@@ -1,0 +1,37 @@
+{
+    "name": "netbeans-java-snippets",
+    "displayName": "Netbeans Java Snippets",
+    "description": "Adds the default Java editor code templates built-in in Apache Netbeans",
+    "version": "0.0.1",
+    "publisher": "johnny78",
+    "author": {
+        "name":"Johnny"
+    },
+    "homepage":"https://github.com/johrny/netbeans-java-snippets",
+    "repository":{
+        "type":"git",
+        "url": "https://github.com/johrny/netbeans-java-snippets"
+    },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "https://github.com/johrny/netbeans-java-snippets/images/logo.ico",
+    "keywords": [
+        "Netbeans",
+        "Java",
+        "Java snippets",
+        "Java code templates",
+        "Java editor templates"
+    ],	
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

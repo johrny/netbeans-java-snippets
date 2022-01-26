@@ -1,0 +1,309 @@
+{
+	"public static void main(String[] args){}": {
+	  "prefix": "psvm",
+	  "body": [
+		"public static void main(String[] args) {",
+		"  $1",
+		"}"
+	  ],
+	  "description": "public static void main(String[] args){}"
+	},
+	"Enumeration<Object>": {
+	  "prefix": "En",
+	  "body": [
+		"Enumeration ${1:<Object>}"
+	  ],
+	  "description": "Enumeration<Object>"
+	},
+	"Exception": {
+	  "prefix": "Ex",
+	  "body": [
+		"Exception $1"
+	  ],
+	  "description": "Exception"
+	},
+	"public static final": {
+	  "prefix": "Psf",
+	  "body": [
+		"public static final $1"
+	  ],
+	  "description": "public static final"
+	},
+	"public static final boolean ": {
+	  "prefix": "Psfb",
+	  "body": [
+		"public static final boolean ${1:B}"
+	  ],
+	  "description": "public static final boolean "
+	},
+	"public static final int $1I": {
+	  "prefix": "Psfi",
+	  "body": [
+		"public static final int ${1:I}"
+	  ],
+	  "description": "public static final int $1I"
+	},
+	"public static final String": {
+	  "prefix": "Psfs",
+	  "body": [
+		"public static final String ${1:S}"
+	  ],
+	  "description": "public static final String"
+	},
+	"String": {
+	  "prefix": "St",
+	  "body": [
+		"String $1"
+	  ],
+	  "description": "String"
+	},
+	"abstract": {
+	  "prefix": "ab",
+	  "body": [
+		"abstract "
+	  ],
+	  "description": "abstract"
+	},
+	"assert true;": {
+	  "prefix": "as",
+	  "body": [
+		"assert true;"
+	  ],
+	  "description": "assert true;"
+	},
+	"break;": {
+	  "prefix": "br",
+	  "body": [
+		"break;"
+	  ],
+	  "description": "break;"
+	},
+	"boolean": {
+	  "prefix": "bo",
+	  "body": [
+		"boolean ${1:b}"
+	  ],
+	  "description": "boolean"
+	},
+	"catch (Exception": {
+	  "prefix": "ca",
+	  "body": [
+		"catch (Exception ${1:ex}"
+	  ],
+	  "description": "catch (Exception"
+	},
+	"class": {
+	  "prefix": "cl",
+	  "body": [
+		"class $1"
+	  ],
+	  "description": "class"
+	},
+	"continue;": {
+	  "prefix": "cn",
+	  "body": [
+		"continue;"
+	  ],
+	  "description": "continue;"
+	},
+	"double": {
+	  "prefix": "db",
+	  "body": [
+		"double ${1:d}"
+	  ],
+	  "description": "double"
+	},
+	"default:": {
+	  "prefix": "df",
+	  "body": [
+		"default:$1"
+	  ],
+	  "description": "default:"
+	},
+	"equals": {
+	  "prefix": "eq",
+	  "body": [
+		"equals$1"
+	  ],
+	  "description": "equals"
+	},
+	"extends": {
+	  "prefix": "ex",
+	  "body": [
+		"extends $1"
+	  ],
+	  "description": "extends"
+	},
+	"public": {
+	  "prefix": "pu",
+	  "body": [
+		"public $1"
+	  ],
+	  "description": "public"
+	},
+	"private": {
+	  "prefix": "pr",
+	  "body": [
+		"private $1"
+	  ],
+	  "description": "private"
+	},
+	"protected": {
+	  "prefix": "pe",
+	  "body": [
+		"protected $1"
+	  ],
+	  "description": "protected"
+	},
+	"throws": {
+	  "prefix": "th",
+	  "body": [
+		"throws $1"
+	  ],
+	  "description": "throws"
+	},
+	"finally{}": {
+	  "prefix": "fy",
+	  "body": [
+		"finally {",
+		"    $1",
+		"}"
+	  ],
+	  "description": "finally{}"
+	},
+	"implements": {
+	  "prefix": "im",
+	  "body": [
+		"implements $1"
+	  ],
+	  "description": "implements"
+	},
+	"interface": {
+	  "prefix": "ie",
+	  "body": [
+		"interface $1"
+	  ],
+	  "description": "interface"
+	},
+	"import": {
+	  "prefix": "ir",
+	  "body": [
+		"import $1"
+	  ],
+	  "description": "import"
+	},
+	"length": {
+	  "prefix": "le",
+	  "body": [
+		"length$1"
+	  ],
+	  "description": "length"
+	},
+	"System.out.println;": {
+	  "prefix": "sout",
+	  "body": [
+		"System.out.println(\"$1\");"
+	  ],
+	  "description": "System.out.println(\" \");"
+	},
+	"System.out.println(args);": {
+	  "prefix": "soutv",
+	  "body": [
+		"System.out.println(${1:\"args$1 = \" + args});"
+	  ],
+	  "description": "System.out.println(\"args = \" + args);"
+	},
+	"while(true){}": {
+	  "prefix": "wh",
+	  "body": [
+		"while (${1:true}) {",
+		"    $2",
+		"}"
+	  ],
+	  "description": "while(true){}"
+	},
+	"volatile": {
+	  "prefix": "vo",
+	  "body": [
+		"volatile$1"
+	  ],
+	  "description": "volatile"
+	},
+	"instanceof": {
+	  "prefix": "iof",
+	  "body": [
+		"instanceof $1"
+	  ],
+	  "description": "instanceof"
+	},
+	"final": {
+	  "prefix": "fi",
+	  "body": [
+		"final $1"
+	  ],
+	  "description": "final"
+	},
+	"float": {
+	  "prefix": "fl",
+	  "body": [
+		"float ${1:f}"
+	  ],
+	  "description": "float"
+	},
+	"false": {
+	  "prefix": "fa",
+	  "body": [
+		"false $1"
+	  ],
+	  "description": "false"
+	},
+	"short": {
+	  "prefix": "sh",
+	  "body": [
+		"short ${1:s}"
+	  ],
+	  "description": "short"
+	},
+	"private static final": {
+	  "prefix": "psf",
+	  "body": [
+		"private static final $1"
+	  ],
+	  "description": "private static final"
+	},
+	"private static final boolean": {
+	  "prefix": "psfb",
+	  "body": [
+		"private static final boolean ${1:B}"
+	  ],
+	  "description": "private static final boolean"
+	},
+	"private static final int": {
+	  "prefix": "psfi",
+	  "body": [
+		"private static final int ${1:I}"
+	  ],
+	  "description": "private static final int"
+	},
+	"private static final String": {
+	  "prefix": "psfs",
+	  "body": [
+		"private static final String $1"
+	  ],
+	  "description": "private static final String"
+	},
+	"printStackTrace();": {
+	  "prefix": "pst",
+	  "body": [
+		"printStackTrace();$1"
+	  ],
+	  "description": "printStackTrace();"
+	},
+	"multiline-comment": {
+	  "prefix": "bcom",
+	  "body": [
+		"/*$1*/"
+	  ],
+	  "description": "multiline-comment"
+	}
+}
